@@ -1,0 +1,32 @@
+h4, h5 {
+  text-align: center;
+}
+
+div.DTS div.dataTables_scrollBody {
+  background: white;
+}
+
+.sheet_name {
+  font-weight: bold;
+}
+
+thead, .dataTables_scrollHead {
+  display: none;
+}
+
+html, body, table, div#data_table_wrapper, .dataTables_scroll, .dataTables_scrollBody {
+  height: 100% !important;
+  padding: 0px !important;
+}
+
+.container-fluid, div#selected_marks {
+  min-height: 100% !important;
+  height:auto !important;
+  height: 100% !important;
+}
+
+td {
+  padding: 10px !important;
+  text-align: center;
+  vertical-align: middle !important;
+}
